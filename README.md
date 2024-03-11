@@ -1,2 +1,1 @@
-# svelte-test
-Study project on SvetleKit
+# Первый проект с использованием SvelteKit
