@@ -11,8 +11,8 @@
     <div class="apps">
         {#each routes as page}
             <div class="app">
-                <h2>page.title</h2>
-                <p>page.body</p>
+                <h2>{page.title}</h2>
+                <p>{page.body}</p>
                 <p class="readmore">
                     <a href={`/project/apps/${page.id}`} class="link"
                         >Читать далее</a
@@ -30,13 +30,13 @@
         padding: 0 20px;
     }
 
-    .blogposts {
+    .apps {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 20px;
     }
 
-    .post {
+    .app {
         border: 1px solid #ddd;
         padding: 10px;
         box-shadow: 0 0 10px #eee;
